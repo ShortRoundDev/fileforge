@@ -19,7 +19,7 @@
             
                 <!-- Upload Window. rowspan is 2 to encompass entire document -->
             <td rowspan="2">
-                <div id="uploadwindow" style="padding: 2em">
+                <div id="uploadwindow" style="padding: 2em;">
                     <table>
                         <tr>
                             <td>
@@ -107,13 +107,14 @@
         
             <!-- navigation box -->
         <tr>
-            <td style="vertical-align: top; height: 90%;">
-                <div class="menubox" style="display: inline-block">                
+            <td valign="top" style="vertical-align: top;">
+                    <!-- no idea why but I have to use margin-top: -1px here -->
+                <div class="menubox" style="margin-top: -1px; display: inline-block">                
                     <a href="index.php"  style="text-decoration: none"><div class="menuoption">Upload</div></a>
                     <a href="music.php"  style="text-decoration: none"><div class="menuoption">Music</div></a>
                     <a href="about.html" style="text-decoration: none"><div class="menuoption">About</div></a>
                 </div>
-            </td>            
+            </td>                   
         </tr>        
     </table>
 </body>
